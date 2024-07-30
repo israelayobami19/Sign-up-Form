@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+
+    <form action="" method="get">
+        
+        <fieldset class="form_section">
+            <header>
+                <h1>Sign Up Form</h1>
+            </header>
+
+            <div class="space">
+                <label class="bold" for="Name">Name </label>
+                <input class="thin" type="text" required>
+            </div>
+
+            <div class="space">
+                <label class="bold" for="Name"> Address</label>
+                <input class="thin" type="text" required>
+            </div>
+
+            <div class="space">
+                <label class="bold" for="Name"> Zip Code</label>
+                <input class="thin" type="text" required>
+            </div>
+            
+            <div class="space">
+                <label class="bold" for="country"> Country</label>
+                <select class="thin" name="country" id="country" required>
+                    <option value="Angola">Angola</option>
+                    <option value="Congo">Congo</option>
+                    <option value="Drc">DRC</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="nigeria">Nigeria</option>
+                </select>
+            </div>
+
+            <div class="option space">
+                <p class="bold">Gender</p>
+                <div class="gender1">
+                    <label  for="male">Male</label>
+                    <input class="thin" type="radio" name="gender" id="male" required>
+                
+                    <label for="female">Female</label>
+                    <input class="thin" type="radio" name="gender" id="female" required>
+                
+                    <label  for="prefer_not_to_say">Prefer not to say</label>
+                    <input class="thin" type="radio" name="gender" id="prefer_not_to_say" required>
+                </div>                
+            </div>
+
+            <div class="option1 space">
+                <p class="bold">Preference</p>
+                <div>
+                    <label  for="red">Red</label>
+                    <input class="thin" type="checkbox" name="Preference" id="red" required>
+                
+                    <label  for="Green">Green</label>
+                    <input class="thin" type="checkbox" name="Preference" id="Green" required>
+                
+                    <label  for="Blue">Blue</label>
+                    <input class="thin" type="checkbox" name="Preference" id="Blue" required>
+                </div>
+            </div>
+
+            <div class="space">
+                <label class="bold" for="phone">Phone </label>
+                <input class="thin" type="tel">
+            </div>
+            <div class="space">
+                <label class="bold" for="email"> Email</label>
+                <input class="thin" type="email" name="email" required>
+            </div>
+
+            <div class="space">
+                <label class="bold" for="password"> Password</label>
+                <input class="thin" type="password" minlength="12" required>
+            </div>
+
+            <div class="space">
+                <label class="bold" for="password"> Password</label>
+                <input class="thin" type="password" minlength="12" required>
+            </div>
+
+            <div class="button">
+                <input class="thin btn" type="reset" name="reset" id="reset">
+                <input class="thin btn" type="submit" name="submit" id="submit">
+    
+            </div>
+            
+        </fieldset>
+    </form>
+    <!--     <section class="form_section">
+        <header class="header">
+            <h1 class="header_h1">Registration Form</h1>
+        </header>
+        <div class="form">
+            <form class="flexform" method="post">
+                <label for="Full Name">Full name</label>
+                <input class="space" type="text" name="Full Name" id="Full Name" placeholder="Enter full name">
+            </form>
+            <form class="flexform" method="post">
+                <label for="email">Email Address</label>
+                <input class="space" type="email" name="Email" id="Email" placeholder="Enter email address">
+            </form>
+            <div class="no_da">
+                <form class="div_no_da method="post">
+                    <label for="Mobile Number">Mobile Number</label>
+                    <input class="space1" type="tel" name="Mobile Number" id="Mobile Number placeholder="Enter mobile number">
+                </form>
+                <form class="div_no_da" method="post">
+                    <label for="Birth Date">Birth Date</label>
+                    <input class="space1 two" type="date" name="Birthdate" id="Birth Day" placeholder="mm-dd-yyyy">
+                </form>
+            </div>
+            <div class="no_three">
+                <p class="gender">Gender</p>
+                <div class="option">
+                    <form class="div_no2" id="gender" method="post">
+                        <input class="option" type="radio" name="Male" id="male" >
+                        <label for="Gender">Male</label>
+                    </form>        
+                    <form class="div_no2" id="gender" method="post">
+                        <input class="option" type="radio" name="female" id="female" >
+                        <label for="Gender">Female</label>
+                    </form>        
+                    <form class="div_no2" id="gender" method="post">
+                        <input class="option" type="radio" name="Prefer not to say" id="Prefer not to say" >
+                        <label for="prefer not to say">Prefer not to say</label>
+                    </form>
+                </div>        
+            </div>
+            <form class="flexform address" method="post">
+                <label for="email">Address</label>
+                <input class="space" type="text" name="Address" id="Email" placeholder="Enter address">
+            </form>
+
+            <div class="no_da">
+                <form class="div_no_da method="post">
+
+                    <input class="space1" type="search" name="Mobile Number" id="Mobile Number placeholder=" Country">
+                </form>
+                <form class="div_no_da" method="post">
+                    <input class="space1 two" type="text" name="postal code" id="postal code" placeholder="Enter your postal code">
+                </form>
+            </div>
+
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </section> -->
+
+</body>
+</html>
